@@ -1,5 +1,6 @@
 import streamlit as st
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
+import torch
 import re
 import xmltodict
 
