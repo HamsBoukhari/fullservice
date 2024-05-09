@@ -83,9 +83,9 @@ if (trade_msg and sgw_op) and button:
         # Convert the updated dictionary back into XML format
         modified_ccp_message = xmltodict.unparse(output_sequence_dict)
         
-        # If the XML message starts with an XML declaration, remove it
+    # If the XML message starts with an XML declaration, remove it
         if modified_ccp_message.startswith("<?xml"):
-            modified_ccp_message.split("?>", 1)[1].strip()
+             modified_ccp_message = modified_ccp_message.split("?>", 1)[1].strip()
         
         # Remove unnecessary newline and tab characters from the XML message
         modified_ccp_message = modified_ccp_message.replace("\n", "").replace("\t", "")
