@@ -1,8 +1,3 @@
-
-Pour ajouter une gestion des exceptions qui affiche un message d'erreur personnalisé en cas de problème, vous pouvez utiliser un bloc try-except. Ce bloc permet d'attraper des exceptions potentielles et de réagir en conséquence, par exemple, en affichant un message d'erreur ou en journalisant l'exception. Voici le code modifié avec un bloc try-except autour de la partie principale où des exceptions pourraient survenir, notamment lors de la génération de la séquence GPT-2, du traitement XML, ou des opérations de copie:
-
-python
-Copy code
 # Importing necessary libraries
 import streamlit as st  # Streamlit for creating a web-based interface
 from transformers import GPT2Tokenizer, GPT2LMHeadModel  # Libraries for tokenizing and GPT-2 model
