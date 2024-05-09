@@ -95,4 +95,6 @@ if (trade_msg and sgw_op) and button:
         
     except Exception as e:
         # If an error occurs, print an error message
-        st.write("There is an error in generating CCP Message, please verify the Trade Message and the SGW Operation")
+        st.write("There is an error in generating CCP Message. Please verify the Trade Message and the SGW Operation.")
+        # Print the actual exception for debugging
+        print(f"Error details: {e}")
