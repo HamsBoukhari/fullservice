@@ -1,0 +1,1 @@
+This repository is dedicated to the fine-tuning and deployment of the GPT-2 model for generating CCP messages for the Full Service Workflow. Explore the Streamlit app via the following link: https://fullservice-eys93zac7jrtbgdw9fs4w7.streamlit.app/.
